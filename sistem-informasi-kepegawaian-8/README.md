@@ -10,11 +10,11 @@
 
 ## Tentang Simpeg
 
-
+Sistem informasi kepegawaian (SIMPEG) adalah sebuah aplikasi berbasis web yang digunakan untuk membantu pengelolaan data pegawai dalam suatu instansi atau organisasi. Sistem ini berfungsi untuk mencatat, menyimpan, serta menampilkan informasi penting seperti data pegawai, jabatan, riwayat pekerjaan, dan data administrasi lainnya secara terstruktur. Dengan adanya SIMPEG, proses pengelolaan kepegawaian menjadi lebih cepat, akurat, dan efisien dibandingkan pengelolaan manual. Selain itu, SIMPEG juga mendukung proses pelaporan data sehingga mempermudah bagian kepegawaian dan pengambilan keputusan dan pemantauan informasi pegawai secara realtime.
 
 ## Tentang laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel adalah kerangka kerja aplikasi web dengan sintaks yang ekspresif dan elegan. Kami percaya bahwa pengembangan harus menjadi pengalaman yang menyenangkan dan kreatif agar benar-benar memuaskan. Laravel menghilangkan kesulitan dalam pengembangan dengan mempermudah tugas-tugas umum yang digunakan dalam banyak proyek web, seperti:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
@@ -25,7 +25,20 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 ## Cara Install 
+- Melakukan git clone atau dowload zip. Contoh git clone: git clone https://github.com/Sappo77/SIMPEG.git
+- Menginstall semua package yang ada dalam proyek tersebut. Contoh: composer instal
+- Membawa folder proyek ke htdocs jika menggunakan XAMPP
+- Menjalankan koneksi XAMPP
+- Membuat database sesuai dengan proyek yang telah di clone
+- Setting database di file .env
+- Pastikan web server dan PHP aktif
 
 ## Cara Menjalankan
+- Buka web browser
+- Buka visual studio code
+- Gunakan php artisan server untuk menjalankan dari cmd
+- Bisa juga jalankan web server lewat alamat lokal foldernya
+- Web bisa diakses dan semua fiturnya bisa digunakan
 
 ## Kesimpulan
+Penerapan Sistem Informasi Kepegawaian (SIMPEG) memberikan kemudahan dalam pengelolaan data pegawai secara lebih efektif, cepat, dan terstruktur. Dengan sistem berbasis komputer ini, proses administrasi yang sebelumnya manual dan rawan kesalahan dapat diminimalkan melalui otomasi dan penyimpanan data yang terpusat. SIMPEG juga mendukung penyediaan informasi yang akurat dan dapat diakses kapan saja sesuai kebutuhan, sehingga membantu instansi dalam proses pengambilan keputusan terkait kepegawaian. Dengan demikian, pengembangan dan penggunaan SIMPEG menjadi solusi yang tepat dalam meningkatkan kualitas layanan administrasi serta efisiensi kinerja bagian kepegawaian.
